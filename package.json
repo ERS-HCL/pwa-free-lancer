@@ -22,7 +22,8 @@
     "David Miller (http://davidmiller.io/)"
   ],
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "deploy": "gulp dist"
   },
   "repository": {
     "type": "git",
