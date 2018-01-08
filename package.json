@@ -23,7 +23,8 @@
   ],
   "scripts": {
     "build": "gulp",
-    "deploy": "gulp dist"
+    "deploy": "gulp dist",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
