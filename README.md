@@ -5,8 +5,12 @@ Currently enabled for caching of resources.
 
 ## Demo
 
-[View Live PWA Demo App]()
+[View Live PWA Demo App](http://festive-goldwasser-162887.netlify.com/)
 
+### Light House PWA Report
+
+Here is a sample light house report using the above demo URL showing the PWA score
+![Light House Repoort](perf/lighthouse.PNG)
 
 ## Future enhancements planned
 
