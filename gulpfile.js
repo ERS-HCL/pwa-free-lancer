@@ -124,16 +124,31 @@ gulp.task('copy', function() {
 gulp.task('dist', function() {
   gulp
     .src([
-      'css',
-      'img',
-      'js',
-      'scss',
-      'vendor',
       'index.html',
       '*.js',
       'LICENSE'
     ])
     .pipe(gulp.dest('dist'));
+    gulp
+    .src([
+      'css/**/*'
+    ])
+    .pipe(gulp.dest('dist/css'));
+    gulp
+    .src([
+      'img/**/*'
+    ])
+    .pipe(gulp.dest('dist/img'));
+    gulp
+    .src([
+      'js/**/*'
+    ])
+    .pipe(gulp.dest('dist/js'));
+    gulp
+    .src([
+      'vendor/**/*'
+    ])
+    .pipe(gulp.dest('dist/vendor'));
 });
 
 // Default task

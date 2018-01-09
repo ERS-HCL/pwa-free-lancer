@@ -23,8 +23,10 @@
   ],
   "scripts": {
     "build": "gulp",
-    "deploy": "gulp dist",
-    "dev": "gulp dev"
+    "deploy": "npm run clean && gulp dist",
+    "dev": "gulp dev",
+    "rimraf": "rimraf",
+    "clean": "npm run rimraf -- dist"
   },
   "repository": {
     "type": "git",
@@ -45,6 +47,7 @@
     "gulp-header": "1.8.9",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "3.0.0"
+    "gulp-uglify": "3.0.0",
+    "rimraf": "^2.6.2"
   }
 }
