@@ -5,7 +5,7 @@ Currently enabled for caching of resources.
 
 ## Demo
 
-[View Live PWA Demo App](http://festive-goldwasser-162887.netlify.com/)
+[View Live PWA Demo App](https://boring-bassi-18d41b.netlify.com/)
 
 ### Light House PWA Report
 
