@@ -45,7 +45,7 @@ npm run deploy
 
 ## Credits
 
-This is based on the video tutorial from the youtube channel [CodingTheSmartWay.com](https://www.youtube.com/watch?v=M_gWF8Cw6KY )
+This is based on the video tutorial from the youtube channel video [CodingTheSmartWay.com](https://www.youtube.com/watch?v=M_gWF8Cw6KY )
 
 ## License
 
