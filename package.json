@@ -17,10 +17,7 @@
     "url": "https://github.com/ERS-HCL/pwa-free-lancer/issues"
   },
   "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
+  "author": "Tarun Kumar Sukhu <tksukhu@gmail.com>",
   "scripts": {
     "build": "gulp",
     "deploy": "npm run clean && gulp dist",
